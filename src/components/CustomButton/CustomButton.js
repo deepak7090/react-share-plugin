@@ -1,10 +1,10 @@
 import React from 'react'
 import './styles.css'
 
-const CustomButton = ({ logo, handleButtonClick }) => {
+const CustomButton = ({ iconImage, handleIconClick }) => {
     return (
-        <div className='sub-wrapper' onClick={handleButtonClick}>
-            <img className='image-wrapper' src={logo} alt="button-logo" />
+        <div className='sub-wrapper' onClick={handleIconClick}>
+            <img className='image-wrapper' src={iconImage} alt="button-logo" />
         </div>
     )
 }
