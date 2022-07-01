@@ -5,6 +5,7 @@ import linkedinLogo from './images/linkedIn.png';
 import mailLogo from './images/mail.png';
 import shareIcon from './images/share.png';
 import closeIcon from './images/close.png';
+import noImageIcon from "./images/noImage.png";
 
 const assets = {
     images: {
@@ -14,7 +15,8 @@ const assets = {
         linkedinLogo,
         mailLogo,
         shareIcon,
-        closeIcon
+        closeIcon,
+        noImageIcon
     }
 }
 export default assets;
