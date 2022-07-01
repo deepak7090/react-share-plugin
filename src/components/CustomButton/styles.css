@@ -1,0 +1,12 @@
+.sub-wrapper {
+	padding: 5px;
+}
+.sub-wrapper:hover {
+	cursor: pointer;
+}
+.image-wrapper {
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+	border-radius: 20px;
+}
